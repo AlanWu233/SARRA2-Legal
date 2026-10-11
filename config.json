@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": 1,
+  "language": "en",
+  "documents": [
+    {
+      "id": "privacy",
+      "version": 2,
+      "updatedAt": "2026-10-11T00:00:00Z",
+      "effectiveAt": "2026-10-11T00:00:00Z",
+      "sha256": "b9e212aac4da9fc4dbf957513007611d0f7e08be7bab73da010ffdb148030941",
+      "url": "https://raw.githubusercontent.com/AlanWu233/SARRA2-Legal/1b9107a970d879ad84829854b90529117372f1bd/legal/privacy.md",
+      "updateBehavior": "silent"
+    },
+    {
+      "id": "terms",
+      "version": 1,
+      "updatedAt": "2026-10-11T00:00:00Z",
+      "effectiveAt": "2026-10-11T00:00:00Z",
+      "sha256": "47487c2e2e99ba2fcd32e563941c18a9676dd0386a4ea40615e72a37a7935aaf",
+      "url": "https://raw.githubusercontent.com/AlanWu233/SARRA2-Legal/1b9107a970d879ad84829854b90529117372f1bd/legal/terms.md",
+      "updateBehavior": "silent"
+    },
+    {
+      "id": "disclaimer",
+      "version": 1,
+      "updatedAt": "2026-10-11T00:00:00Z",
+      "effectiveAt": "2026-10-11T00:00:00Z",
+      "sha256": "04b94348edad549b1a542646285b47ebc8ca3dd495b41cb1b1c0250c128f66bf",
+      "url": "https://raw.githubusercontent.com/AlanWu233/SARRA2-Legal/1b9107a970d879ad84829854b90529117372f1bd/legal/disclaimer.md",
+      "updateBehavior": "silent"
+    }
+  ]
+}
