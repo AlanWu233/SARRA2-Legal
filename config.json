@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": 1,
+  "manifestVersion": 2,
   "language": "en",
   "documents": [
     {
       "id": "privacy",
-      "version": 2,
-      "updatedAt": "2026-10-11T00:00:00Z",
-      "effectiveAt": "2026-10-11T00:00:00Z",
-      "sha256": "b9e212aac4da9fc4dbf957513007611d0f7e08be7bab73da010ffdb148030941",
-      "url": "https://raw.githubusercontent.com/AlanWu233/SARRA2-Legal/1b9107a970d879ad84829854b90529117372f1bd/legal/privacy.md",
-      "updateBehavior": "silent"
+      "version": 7,
+      "updatedAt": "2026-10-14T08:51:03.970Z",
+      "effectiveAt": "2026-10-14T08:51:03.970Z",
+      "sha256": "60ccbf5eef0962183ffe53a5a2edce5743382e7252faf28a471be6b12d28aa4f",
+      "url": "https://raw.githubusercontent.com/AlanWu233/SARRA2-Legal/007658f6b9373aac82f7333bc43a19155d1958a0/legal/privacy.md",
+      "updateBehavior": "notify"
     },
     {
       "id": "terms",
