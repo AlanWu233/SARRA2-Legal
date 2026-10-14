@@ -1,8 +1,8 @@
 # Privacy Policy
 
 **Application:** SARRA2 App  
-**Effective Date:** October 11, 2026  
-**Last Updated:** October 11, 2026  
+**Effective Date:** October 14, 2026  
+**Last Updated:** October 14, 2026  
 
 
 ## 1. Introduction
@@ -185,7 +185,19 @@ The App may also maintain local diagnostic records. On iOS, diagnostics can incl
 
 **A diagnostic export should not be assumed to be anonymous.** Review it before copying or sending it to anyone.
 
-The reviewed code did not show a dedicated automatic remote diagnostic upload or third-party advertising SDK. Local usage counts and interface preferences may nevertheless be kept on the device. Infrastructure, website, and operating-system logging is outside the App’s complete control.
+On iOS, Settings > Feedback & Logs > Log Upload Settings provides upload controls without displaying the technical event history. Automatic error reporting is off by default and starts only after you confirm enabling it. You can turn it off and clear queued reports in Settings. Reports sent to the developer-operated support service at config.719100.xyz contain only fixed error and operation categories, app page categories, timestamps, button-press events, request-method categories, numeric status codes and elapsed milliseconds, app/build version, iOS version, and phone/tablet category. They do not include account names, student IDs, passwords, verification or recovery codes, cookies, authentication tokens, request bodies, URLs, document contents, or visible page text. No persistent device or installation identifier is attached. This restricted report is different from the fuller developer-tool export described above.
+
+Structured diagnostic reports also include fixed control and operation-stage names, app-owned source categories, failure categories, numeric HTTP and operating-system error codes, retry counts, response-format categories and item counts, network-type categories (such as Wi-Fi, cellular or offline), foreground/background state, whether saved data is available, and the configuration version. Random launch, workflow, request and upload-bundle references connect related records; these are not persistent device identifiers or university-account identifiers. Network names, IP addresses, full URLs, headers, request or response bodies, raw error descriptions and school-page content are not included in this report schema. Ordinary hosting connection metadata is handled separately as explained below.
+
+Automatic reporting requires renewed confirmation before this expanded schema is enabled, including for users who previously enabled the older reporting format. An automatic report includes a bounded window before and shortly after a detected failure, including related retries; expected user cancellations are not automatically reported as failures. A manual upload sends retained operation records in numbered batches, with a recent failure window first when available. Operation names identify fixed app controls, not values typed or selected by the user. These records are for diagnosing faults, not advertising, user profiling or engagement analytics.
+
+Local operation logs are kept until you explicitly use Settings > Clear Cache > Clear Cache & Logs. Opening pages, switching accounts, restarting the App, successful upload and the age or number of records do not automatically clear this archive. Only a bounded recent window is held in memory; manual uploads read the archive in small batches. Pending automatic-upload envelopes are limited in number and can expire after seven days, but this does not delete their archived operation records. Uninstallation, operating-system actions, unavailable storage or device failure can affect local files. Server reports are limited to the latest 300 and expire after fourteen days; authorized administrators can inspect, download, and delete them. A rotating, salted network hash is used separately for hourly abuse prevention and is not attached to reports. Cloudflare infrastructure necessarily receives network metadata, including the source IP address, and may keep its own operational records. Clearing local records does not delete reports already received by the support service. The App does not include a third-party advertising SDK. Local usage counts and interface preferences may still be kept on the device.
+
+### Voluntary User Feedback
+
+Settings > Feedback & Logs > Send Feedback lets you voluntarily submit a bug report, feature request or suggestion without a GitHub account. The support service at config.719100.xyz receives only the text you enter, its feedback category, a submission reference, the submission time, app/build and operating-system versions, and phone/tablet category. No account credentials, school-page contents or diagnostic logs are attached automatically. You must review the text and confirm removing private information before sending it. Do not include names, student IDs, phone numbers, passwords, verification codes, cookies, tokens or other unnecessary personal information.
+
+Feedback is used for support and product improvements. Authorized administrators review it and may forward approved text to the private SARRA2-Feedback GitHub issue tracker. GitHub processes forwarded information as a separate service. Sending feedback does not automatically publish an Issue. Server feedback shares the bounded report store and is retained for up to fourteen days; administrators may delete it earlier. Forwarded GitHub Issues can be retained longer. Deleting a server report does not delete a GitHub Issue, and closing an Issue does not delete its content. Local drafts and retries remain in memory, are not uploaded automatically, and are discarded when the feedback page is closed. Infrastructure receives ordinary request metadata; a daily-salted network hash is used separately for rate limiting and is not attached to feedback.
 
 ## 11. Data Retention and Deletion
 
